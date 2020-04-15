@@ -1,7 +1,7 @@
 {
-  "name": "modals-controller-reactjs",
-  "version": "1.0.0",
-  "description": "Modals controller with reactjs",
+  "name": "modals-controller-react",
+  "version": "0.0.2",
+  "description": "Modals controller with react",
   "author": "claudiohilario",
   "license": "MIT",
   "repository": "",
@@ -24,7 +24,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "file:../node_modules/react"
   },
   "devDependencies": {
     "@types/jest": "^25.1.4",

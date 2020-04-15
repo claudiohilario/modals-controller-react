@@ -1,10 +1,16 @@
 import React from 'react'
 
-import { ExampleComponent } from 'modals-controller-reactjs'
-import 'modals-controller-reactjs/dist/index.css'
+import * as ModalsController from 'modals-controller-reactjs'
+import ViewDataTest from './ViewDataTest';
+import ModalActions from './ModalActions';
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <ModalsController.Provider>
+      <ViewDataTest />
+      <ModalActions />
+    </ModalsController.Provider>
+  )
 }
 
 export default App
